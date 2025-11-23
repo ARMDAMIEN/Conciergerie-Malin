@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Dans quelles villes du Val d'Oise intervenez-vous ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous intervenons dans tout le Val d'Oise (95) : Cergy, Pontoise, Argenteuil, Sarcelles, Enghien-les-Bains, Ermont, Franconville, Gonesse, L'Isle-Adam, Montmorency, Taverny, Bezons et toutes les communes du département pour la gestion de locations saisonnières Airbnb et Booking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels services de conciergerie Airbnb proposez-vous dans le 95 ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous proposons la gestion complète de votre location Airbnb dans le Val d'Oise : accueil voyageurs automatisé, ménage professionnel, optimisation annonces, photos valorisantes, gestion multi-plateformes (Airbnb, Booking, Abritel), revenue management et maintenance du bien à Cergy-Pontoise et tout le 95."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment se passe l'accueil des voyageurs à Cergy et Pontoise ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous gérons l'accueil complet de vos voyageurs dans le Val d'Oise : check-in/check-out automatisés, remise de clés sécurisée, communication avant et pendant le séjour, guide d'accueil personnalisé. Service disponible 7j/7 à Cergy, Pontoise, Argenteuil et dans tout le 95."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels sont vos tarifs de conciergerie dans le Val d'Oise ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nos tarifs dans le 95 sont dégressifs selon vos revenus mensuels : 14% pour revenus inférieur à 600€, 18% entre 600€ et 1300€, 23% au-delà de 1300€. Tarifs HT = TTC (pas de TVA). Commission adaptée à la rentabilité de votre bien à Cergy, Pontoise, Argenteuil."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gérez-vous les annonces sur plusieurs plateformes dans le 95 ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, nous gérons vos annonces sur Airbnb, Booking.com, Abritel et autres plateformes dans le Val d'Oise. Synchronisation des calendriers, optimisation du référencement, réponses aux demandes 24h/24. Maximisez votre visibilité à Cergy, Pontoise, Argenteuil et partout dans le 95."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le ménage est-il inclus dans votre service à Argenteuil ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, le ménage professionnel est inclus dans notre offre de conciergerie Val d'Oise. Nettoyage minutieux entre chaque location, changement du linge, contrôle qualité systématique. Intervention rapide à Argenteuil, Cergy-Pontoise, Sarcelles et dans tout le département 95."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment optimisez-vous les revenus locatifs dans le Val d'Oise ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nous appliquons le revenue management dans le 95 : tarification dynamique selon la saison, événements locaux et demande, analyse du marché Val d'Oise, ajustements en temps réel. Objectif : maximiser votre rentabilité à Cergy, Pontoise, Enghien-les-Bains et tout le département."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Proposez-vous des photos professionnelles à Cergy-Pontoise ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, nous réalisons des reportages photo professionnels de votre bien dans le Val d'Oise : clichés professionnels, mise en scène soignée, retouches qualité. Photos attractives qui augmentent vos réservations à Cergy, Pontoise, Argenteuil et partout dans le 95."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qui gère la maintenance et les dépannages dans le 95 ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Notre conciergerie assure la gestion complète de la maintenance de votre bien en Val d'Oise : interventions rapides, coordination d'artisans de confiance, suivi des réparations. Votre logement toujours en parfait état à Cergy-Pontoise, Argenteuil, Sarcelles et dans tout le département."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je choisir uniquement certains services dans le Val d'Oise ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolument ! Nous proposons une gestion sur-mesure dans le 95 : choisissez les services dont vous avez besoin (ménage seul, accueil voyageurs, optimisation annonces...). Formules flexibles et modulables à Cergy, Pontoise, Argenteuil et partout en Val d'Oise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps faut-il pour lancer ma location Airbnb dans le 95 ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le lancement de votre location saisonnière dans le Val d'Oise peut se faire en 7 à 10 jours : création annonces optimisées, shooting photo, paramétrage plateformes, mise en place accueil. Démarrage rapide à Cergy-Pontoise, Argenteuil, Sarcelles et dans tout le département 95."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Êtes-vous disponibles 7j/7 pour les urgences à Pontoise et Cergy ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, notre conciergerie est disponible 7j/7 dans le Val d'Oise pour toute urgence ou problème pendant les séjours de vos voyageurs. Assistance réactive à Cergy, Pontoise, Argenteuil, Sarcelles et dans tout le 95. Vos locataires et votre bien sont entre de bonnes mains."
+      }
+    }
+  ]
+}

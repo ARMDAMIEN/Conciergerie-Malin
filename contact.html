@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez Conciergerie Malin pour la gestion de votre location Airbnb en Val d'Oise. Service 24/7 à Cergy, Pontoise, Argenteuil. Devis gratuit. Tél: 06 10 96 01 49">
+    <title>Contact - Conciergerie Malin Val d'Oise (95) | Devis Gratuit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b1ec6b880.js" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Conciergerie Malin - Val d'Oise (95)",
+          "image": "https://www.conciergeriemalin.fr/assets/images/logo.png",
+          "url": "https://www.conciergeriemalin.fr",
+          "telephone": "+33610960149",
+          "priceRange": "14% - 23%",
+          "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+              "@type": "GeoCoordinates",
+              "latitude": 49.0378,
+              "longitude": 2.0788
+            },
+            "name": "Val d'Oise (95)"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+33610960149",
+            "contactType": "customer service",
+            "areaServed": "Val d'Oise (95) - Cergy, Pontoise, Argenteuil, Sarcelles",
+            "availableLanguage": "French",
+            "hoursAvailable": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          }
+        }
+        </script>
+</head>
+
+<body>
+    <!-- Page de contact optimisée pour GBP -->
+    <header>
+        <a href="index.html" class="logo-container">
+            <img class="hd-logo" src="/assets/images/logo.png" alt="Conciergerie Malin - Val d'Oise">
+        </a>
+        <nav class="hd-links mont">
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="avis-clients.html">Avis Clients</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-header">
+                <h1>Contactez Conciergerie Malin en <span class="city-name">Val d'Oise (95)</span></h1>
+                <p class="contact-intro">Notre équipe de conciergerie est à votre disposition 24h/24 et 7j/7 pour gérer vos locations Airbnb à Cergy, Pontoise, Argenteuil et dans tout le Val d'Oise.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Formulaire de contact -->
+                <div class="contact-form-container">
+                    <div class="form-header">
+                        <h2>Formulaire de contact</h2>
+                        <p>Remplissez ce formulaire pour une réponse sous 24h</p>
+                    </div>
+
+                    <form id="contact-form" class="contact-form" action="traitement-formulaire.php" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nom">Nom et prénom *</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="telephone">Téléphone *</label>
+                                <input type="tel" id="telephone" name="telephone" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="adresse">Adresse de votre bien en Val d'Oise</label>
+                            <input type="text" id="adresse" name="adresse" placeholder="Ville et code postal (ex: Cergy 95000)">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service souhaité *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Sélectionnez un service</option>
+                                <option value="Gestion complète Airbnb">Gestion complète Airbnb</option>
+                                <option value="Ménage professionnel">Ménage professionnel uniquement</option>
+                                <option value="Check-in/Check-out">Check-in/Check-out automatisé</option>
+                                <option value="Photos professionnelles">Photos professionnelles</option>
+                                <option value="Optimisation annonces">Optimisation annonces</option>
+                                <option value="Revenue management">Revenue management</option>
+                                <option value="Gestion multi-plateformes">Gestion multi-plateformes</option>
+                                <option value="Devis personnalisé">Devis personnalisé sur-mesure</option>
+                                <option value="Autre">Autre (précisez dans le message)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Votre message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <div class="form-group form-consent">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">J'accepte que mes données soient traitées pour me recontacter *</label>
+                        </div>
+
+                        <div class="form-cta">
+                            <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Informations de contact -->
+                <div class="contact-info-container">
+                    <div class="contact-card">
+                        <h2>Nos coordonnées</h2>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>Zone de service</h3>
+                                <address>
+                                    <p><strong>Conciergerie Malin</strong></p>
+                                    <p>Tout le Val d'Oise (95)</p>
+                                    <p>Cergy, Pontoise, Argenteuil, Sarcelles...</p>
+                                    <p><small>SIRET: 99189893300015</small></p>
+                                </address>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>Téléphone</h3>
+                                <p><a href="tel:+33610960149">06 10 96 01 49</a></p>
+                                <small>Disponible 24h/24 - 7j/7</small>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>Réactivité</h3>
+                                <p>Service d'urgence 24/7</p>
+                                <small>Réponse rapide garantie</small>
+                            </div>
+                        </div>
+
+                        <div class="contact-hours">
+                            <h3>Disponibilité</h3>
+                            <ul class="hours-list">
+                                <li><span>Lundi:</span> <span>24h/24</span></li>
+                                <li><span>Mardi:</span> <span>24h/24</span></li>
+                                <li><span>Mercredi:</span> <span>24h/24</span></li>
+                                <li><span>Jeudi:</span> <span>24h/24</span></li>
+                                <li><span>Vendredi:</span> <span>24h/24</span></li>
+                                <li><span>Samedi:</span> <span>24h/24</span></li>
+                                <li><span>Dimanche:</span> <span>24h/24</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="service-area-map">
+                        <h3>Nos zones d'intervention</h3>
+                        <div class="cities-covered">
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Cergy-Pontoise</li>
+                                <li><i class="fas fa-check-circle"></i> Argenteuil</li>
+                                <li><i class="fas fa-check-circle"></i> Sarcelles</li>
+                                <li><i class="fas fa-check-circle"></i> Enghien-les-Bains</li>
+                                <li><i class="fas fa-check-circle"></i> Gonesse</li>
+                                <li><i class="fas fa-check-circle"></i> Montmorency</li>
+                                <li><i class="fas fa-check-circle"></i> Ermont</li>
+                                <li><i class="fas fa-check-circle"></i> Franconville</li>
+                                <li><i class="fas fa-check-circle"></i> Taverny</li>
+                                <li><i class="fas fa-check-circle"></i> L'Isle-Adam</li>
+                                <li><i class="fas fa-check-circle"></i> Saint-Gratien</li>
+                                <li><i class="fas fa-check-circle"></i> Toutes communes 95</li>
+                            </ul>
+                        </div>
+                        <p style="text-align: center; margin-top: 15px; color: #666;">
+                            <strong>Service de conciergerie Airbnb disponible dans tout le département du Val d'Oise</strong>
+                        </p>
+                    </div>
+
+                    <div class="contact-direct">
+                        <a href="https://g.page/r/votre-code-google/review" class="btn btn-review" target="_blank"
+                            rel="noopener">
+                            <i class="fas fa-star"></i> Laisser un avis Google
+                        </a>
+                        <div class="social-links">
+                            <a href="https://facebook.com/conciergeriemalin" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/conciergeriemalin" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://linkedin.com/company/conciergeriemalin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Informations de contact -->
+                <div class="footer-contact">
+                    <img src="/assets/images/logo.png" alt="Conciergerie Malin - Val d'Oise" class="footer-logo">
+                    <div class="footer-nap">
+                        <h3>Coordonnées</h3>
+                        <address>
+                            <p><strong>Conciergerie Malin - Val d'Oise (95)</strong></p>
+                            <p><i class="fa fa-map-marker"></i> Service disponible dans tout le Val d'Oise</p>
+                            <p><i class="fa fa-phone"></i> <a href="tel:+33610960149">06 10 96 01 49</a></p>
+                            <p><i class="fa fa-clock"></i> Disponible 24h/24 - 7j/7</p>
+                            <p><i class="fa fa-id-card"></i> SIRET: 99189893300015</p>
+                        </address>
+                    </div>
+                </div>
+
+                <!-- Zone de service -->
+                <div class="footer-service-area">
+                    <h3>Zones d'intervention Val d'Oise</h3>
+                    <p>Nous intervenons dans tout le département du Val d'Oise (95) incluant :</p>
+                    <ul class="service-localities">
+                        <li>Cergy</li>
+                        <li>Pontoise</li>
+                        <li>Argenteuil</li>
+                        <li>Sarcelles</li>
+                        <li>Enghien-les-Bains</li>
+                        <li>Toutes les communes du 95</li>
+                    </ul>
+                </div>
+
+                <!-- Liens rapides -->
+                <div class="footer-quick-links">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="/index.html">Accueil</a></li>
+                        <li><a href="/services.html">Services Conciergerie</a></li>
+                        <li><a href="/avis-clients.html">Avis Clients</a></li>
+                        <li><a href="/faq.html">FAQ</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/mentions-legales.html">Mentions légales</a></li>
+                    </ul>
+                </div>
+
+                <!-- Réseaux sociaux et GMB -->
+                <div class="footer-social">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/conciergeriemalin" aria-label="Facebook"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="https://instagram.com/conciergeriemalin" aria-label="Instagram"><i
+                                class="fa fa-instagram"></i></a>
+                        <a href="https://linkedin.com/company/conciergeriemalin" aria-label="LinkedIn"><i
+                                class="fa fa-linkedin"></i></a>
+                    </div>
+                    <div class="gmb-review">
+                        <a href="https://g.page/r/votre-code-google-my-business/review" class="gmb-review-link"
+                            target="_blank" rel="noopener">
+                            <div class="gmb-stars">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating">5/5</span>
+                            </div>
+                            <span class="review-count">Basé sur 2 avis Google</span>
+                            <span class="leave-review">Laisser un avis</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Catégories GMB -->
+            <div class="footer-categories">
+                <h4>Nos services de conciergerie</h4>
+                <ul class="footer-tags">
+                    <li>Gestion Airbnb Val d'Oise</li>
+                    <li>Ménage Location Saisonnière</li>
+                    <li>Check-in/Check-out</li>
+                    <li>Photos Professionnelles</li>
+                    <li>Optimisation Annonces</li>
+                </ul>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <p>&copy; <span id="current-year">2025</span> Conciergerie Malin - Val d'Oise (95). Tous droits réservés.</p>
+                <p>Service de conciergerie Airbnb et gestion locative saisonnière dans le Val d'Oise</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('current-year').innerText = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

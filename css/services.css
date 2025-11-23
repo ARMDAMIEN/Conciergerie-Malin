@@ -1,0 +1,474 @@
+.services-page {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.services-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.services-header h1 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.city-name {
+    color: #1ABC9C; /* à adapter selon votre charte graphique */
+}
+
+.services-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Featured Service */
+.featured-service {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 40px;
+}
+
+.featured-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.featured-description {
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.featured-benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.featured-benefits li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.featured-benefits i {
+    color: #1ABC9C; /* à adapter selon votre charte graphique */
+    margin-right: 10px;
+    font-size: 1.2rem;
+    margin-top: 2px;
+}
+
+.featured-cta {
+    display: flex;
+    gap: 15px;
+}
+
+.featured-image {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.service-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #f0f7ff; /* à adapter selon votre charte graphique */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-icon i {
+    font-size: 1.8rem;
+    color: #1ABC9C; /* à adapter selon votre charte graphique */
+}
+
+.service-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.service-card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.service-features li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.service-features li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #1ABC9C; /* à adapter selon votre charte graphique */
+}
+
+.service-areas {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-top: 1px dashed #eee;
+}
+
+.service-areas span {
+    font-weight: 600;
+}
+
+.service-link {
+    display: inline-flex;
+    align-items: center;
+    color: #1ABC9C; /* à adapter selon votre charte graphique */
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.service-link i {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.service-link:hover {
+    color: #1ABC9C; /* à adapter selon votre charte graphique */
+}
+
+.service-link:hover i {
+    transform: translateX(5px);
+}
+
+/* Emergency Services */
+.emergency-services {
+    display: flex;
+    align-items: center;
+    background-color: #fff3f3; /* rouge très clair */
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 80px;
+    border-left: 5px solid #dc3545; /* rouge, à adapter selon votre charte graphique */
+}
+
+.emergency-icon {
+    font-size: 3rem;
+    color: #dc3545; /* rouge, à adapter selon votre charte graphique */
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.emergency-content {
+    flex-grow: 1;
+}
+
+.emergency-content h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.emergency-content p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.emergency-contact {
+    display: flex;
+}
+
+.btn-emergency {
+    background-color: #dc3545; /* rouge, à adapter selon votre charte graphique */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.btn-emergency i {
+    margin-right: 10px;
+}
+
+.btn-emergency:hover {
+    background-color: #c82333; /* rouge plus foncé */
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(220, 53, 69, 0.3);
+}
+
+/* Service Areas */
+.service-areas-section {
+    margin-bottom: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 40px;
+}
+
+.service-areas-section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.service-areas-section > p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.areas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.area-column h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.areas-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.areas-list li {
+    margin-bottom: 10px;
+}
+
+.areas-list a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.areas-list a:hover {
+    color: #1ABC9C; /* à adapter selon votre charte graphique */
+    transform: translateX(5px);
+}
+
+/* Why Choose Us */
+.why-choose-us {
+    margin-bottom: 80px;
+}
+
+.why-choose-us h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.benefit-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #f0f7ff; /* à adapter selon votre charte graphique */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.benefit-icon i {
+    font-size: 2rem;
+    color: #1ABC9C; /* à adapter selon votre charte graphique */
+}
+
+.benefit-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.benefit-card p {
+    color: #555;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Services CTA */
+.services-cta {
+    background-color: #1ABC9C; /* à adapter selon votre charte graphique */
+    color: white;
+    text-align: center;
+    padding: 60px 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.services-cta h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.services-cta p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: white;
+    color: #1ABC9C; /* à adapter selon votre charte graphique */
+}
+
+.btn-primary:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .featured-service {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .featured-image {
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-page {
+        padding: 60px 20px;
+    }
+    
+    .featured-cta,
+    .cta-buttons {
+        flex-direction: column;
+    }
+    
+    .emergency-services {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .emergency-icon {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .service-areas-section {
+        padding: 30px 20px;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+}
