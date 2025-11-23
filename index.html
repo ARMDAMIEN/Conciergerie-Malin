@@ -68,7 +68,12 @@
             <a href="index.html" class="logo-container">
                 <img class="hd-logo" src="/assets/images/logo.png" alt="Conciergerie Malin - Val d'Oise">
             </a>
-            <nav class="hd-links mont">
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="hd-links mont" id="navMenu">
                 <a href="index.html">Accueil</a>
                 <a href="services.html">Services</a>
                 <a href="avis-clients.html">Avis Clients</a>
@@ -554,7 +559,8 @@
         </div>
     </footer>
 
-    <!-- Script pour mettre à jour l'année automatiquement -->
+    <!-- Scripts -->
+    <script src="js/menu.js"></script>
     <script>
         document.getElementById('current-year').innerText = new Date().getFullYear();
     </script>

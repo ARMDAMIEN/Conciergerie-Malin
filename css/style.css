@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     margin: 0;
@@ -36,12 +40,14 @@ body {
 
 header {
    width: 100%;
-   padding: 15px 10px;
+   padding: 15px 20px;
    display: flex;
-   justify-content: space-between;
    align-items: center;
+   justify-content: space-between;
    position: absolute;
    top: 0px;
+   left: 0;
+   right: 0;
    z-index: 10;
    background: transparent;
    box-shadow: none;
@@ -49,19 +55,18 @@ header {
 
 .logo-container {
     max-width: 80px;
+    flex-shrink: 0;
 }
 
 .hd-logo {
     width: 80px;
     height: 80px;
     object-fit: contain;
-    padding-left: 30px;
 }
 
 .hd-links {
     display: flex;
     align-items: center;
-    padding-right: 30px;
 }
 
 .hd-links a {
@@ -75,6 +80,36 @@ header {
 
 .hd-links a:hover {
     color: #1ABC9C; /* à adapter selon votre charte graphique */
+}
+
+/* Hamburger menu button */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 11;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+.menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
 }
 
 .hero-content {
@@ -264,12 +299,23 @@ address a {
     display: inline-block;
 }
 
+/* Desktop navigation - always visible */
+@media (min-width: 769px) {
+    .hd-links {
+        display: flex !important;
+    }
+
+    .menu-toggle {
+        display: none !important;
+    }
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .location-container {
         grid-template-columns: 1fr;
     }
-    
+
     .map-container iframe {
         height: 350px;
     }
@@ -748,17 +794,14 @@ details[open] .faq-answer {
 @media (max-width: 768px) {
     header {
         padding: 15px 5%;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
     }
-    
-    .hd-links {
-        margin-top: 15px;
-    }
-    
+
     .hero-content {
         padding-top: 80px;
     }
-    
+
     .hero-cta {
         flex-direction: column;
         gap: 10px;
@@ -1431,16 +1474,126 @@ details[open] .faq-answer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    /* Mobile header */
+    header {
+        padding: 10px 15px;
+    }
+
+    .menu-toggle {
+        display: flex !important;
+        margin-left: auto;
+    }
+
+    .logo-container {
+        max-width: 50px;
+    }
+
+    .hd-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hd-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: rgba(59, 76, 68, 0.98);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-left: 0;
+        transition: right 0.3s ease;
+        z-index: 10;
+    }
+
+    .hd-links.active {
+        right: 0;
+    }
+
+    .hd-links a {
+        padding: 20px 0;
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Hero responsive */
+    .hero-banner {
+        height: auto;
+        min-height: 450px;
+        padding: 100px 20px 40px;
+    }
+
+    .hero-content {
+        padding: 20px 15px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.3;
+    }
+
+    .hero-subtitle, .hero-location {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .hero-cta .btn {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        display: block;
+        padding: 14px 20px;
+        font-size: 0.95rem;
+    }
+
     .contact-page {
         padding: 60px 20px;
     }
-    
+
     .contact-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .form-row {
         grid-template-columns: 1fr;
         gap: 0;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .hero-banner {
+        min-height: 400px;
+        padding: 80px 15px 30px;
+    }
+
+    .hero-content {
+        padding: 15px 10px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle, .hero-location {
+        font-size: 0.9rem;
+    }
+
+    .hero-cta .btn {
+        padding: 12px 15px;
+        font-size: 0.9rem;
     }
 }
