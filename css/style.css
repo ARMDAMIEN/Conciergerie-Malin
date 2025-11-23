@@ -360,6 +360,16 @@ address a {
     border: 2px solid #1ABC9C; /* à adapter selon votre charte graphique */
 }
 
+.client-initial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1ABC9C;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .client-name {
     font-weight: 600;
     margin-bottom: 3px;

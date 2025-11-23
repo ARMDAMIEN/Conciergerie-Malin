@@ -229,6 +229,16 @@
     margin-right: 15px;
 }
 
+.reviewer-initial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1ABC9C;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .reviewer-name {
     font-weight: 600;
     color: #333;
