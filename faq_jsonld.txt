@@ -23,7 +23,7 @@
       "name": "Comment se passe l'accueil des voyageurs à Cergy et Pontoise ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nous gérons l'accueil complet de vos voyageurs dans le Val d'Oise : check-in/check-out automatisés, remise de clés sécurisée, communication avant et pendant le séjour, guide d'accueil personnalisé. Service disponible 7j/7 à Cergy, Pontoise, Argenteuil et dans tout le 95."
+        "text": "Nous gérons l'accueil complet de vos voyageurs dans le Val d'Oise : check-in/check-out automatisés, remise de clés sécurisée, communication avant et pendant le séjour, livret d'accueil digital personnalisé. Service disponible 7j/7 à Cergy, Pontoise, Argenteuil et dans tout le 95."
       }
     },
     {

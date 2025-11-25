@@ -1,0 +1,487 @@
+/* About Page Styles */
+.about-page {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+/* About Header */
+.about-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about-header h1 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.city-name {
+    color: #1ABC9C;
+}
+
+.about-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* About Story Section */
+.about-story {
+    margin-bottom: 80px;
+}
+
+.story-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 40px;
+}
+
+.story-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.story-text {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.story-text strong {
+    color: #333;
+}
+
+.story-image {
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.story-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* About Philosophy Section */
+.about-philosophy {
+    margin-bottom: 80px;
+}
+
+.philosophy-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 40px;
+}
+
+.philosophy-content h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.philosophy-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.philosophy-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    transition: transform 0.3s ease;
+    border-left: 4px solid #1ABC9C;
+}
+
+.philosophy-card:hover {
+    transform: translateY(-5px);
+}
+
+.philosophy-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.philosophy-icon i {
+    font-size: 1.5rem;
+    color: #1ABC9C;
+}
+
+.philosophy-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.philosophy-card p {
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* About Values Section */
+.about-values {
+    margin-bottom: 80px;
+}
+
+.about-values h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.value-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.value-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #f0f7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.value-icon i {
+    font-size: 1.8rem;
+    color: #1ABC9C;
+}
+
+.value-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.value-card p {
+    color: #555;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* About Zone Section */
+.about-zone {
+    margin-bottom: 80px;
+}
+
+.zone-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 40px;
+}
+
+.zone-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.zone-content > p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.zone-cities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.city-badge {
+    background-color: #f0f7ff;
+    color: #1ABC9C;
+    padding: 12px 20px;
+    border-radius: 25px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.city-badge i {
+    margin-right: 8px;
+}
+
+.city-badge:hover {
+    background-color: #1ABC9C;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* About Stats Section */
+.about-stats {
+    margin-bottom: 80px;
+    background-color: #1ABC9C;
+    color: white;
+    padding: 60px 40px;
+    border-radius: 10px;
+}
+
+.about-stats h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+.stat-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.stat-label {
+    font-size: 1rem;
+    opacity: 0.9;
+    display: block;
+}
+
+/* About Why Choose Section */
+.about-why-choose {
+    margin-bottom: 80px;
+}
+
+.why-choose-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 40px;
+}
+
+.why-choose-content h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.why-choose-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.why-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.why-item:hover {
+    transform: translateX(10px);
+    background-color: #f0f7ff;
+}
+
+.why-item i {
+    color: #1ABC9C;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.why-item span {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* About CTA Section */
+.about-cta {
+    background-color: #1ABC9C;
+    color: white;
+    text-align: center;
+    padding: 60px 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.about-cta h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.about-cta p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: white;
+    color: #1ABC9C;
+}
+
+.btn-primary:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .philosophy-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .values-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .about-page {
+        padding: 60px 20px;
+    }
+
+    .story-content,
+    .philosophy-content,
+    .zone-content,
+    .why-choose-content {
+        padding: 30px 20px;
+    }
+
+    .about-stats {
+        padding: 40px 20px;
+    }
+
+    .about-cta {
+        padding: 40px 20px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .why-choose-list {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .zone-cities {
+        gap: 10px;
+    }
+
+    .city-badge {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .value-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .value-icon i {
+        font-size: 1.5rem;
+    }
+}
