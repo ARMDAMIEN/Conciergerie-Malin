@@ -1671,3 +1671,20 @@ details[open] .faq-answer {
         font-size: 0.9rem;
     }
 }
+
+/* Service hero banner - specific styling for service pages */
+.service-hero {
+    flex-direction: column;
+}
+
+.service-hero header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.service-hero .hero-content {
+    position: relative;
+    z-index: 2;
+}
