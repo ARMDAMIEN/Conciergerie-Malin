@@ -1,0 +1,39 @@
+# robots.txt pour Conciergerie Malin - Val d'Oise (95)
+# Site web: https://www.conciergeriemalin.fr
+
+# Autoriser tous les robots d'indexation
+User-agent: *
+Allow: /
+
+# Interdire l'indexation des fichiers et dossiers techniques
+Disallow: /js/
+Disallow: /css/
+Disallow: /assets/
+
+# Autoriser explicitement les pages importantes
+Allow: /index.html
+Allow: /services.html
+Allow: /gestion-locative-airbnb-val-doise.html
+Allow: /avis-clients.html
+Allow: /faq.html
+Allow: /contact.html
+Allow: /a-propos.html
+Allow: /mentions-legales.html
+
+# Sitemap
+Sitemap: https://www.conciergeriemalin.fr/sitemap.xml
+
+# Paramètres spécifiques pour Google
+User-agent: Googlebot
+Allow: /
+
+# Paramètres spécifiques pour Googlebot-Image (images)
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Paramètres pour Bing
+User-agent: Bingbot
+Allow: /
+
+# Délai d'attente entre les requêtes (10 secondes)
+Crawl-delay: 10
